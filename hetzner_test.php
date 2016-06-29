@@ -20,3 +20,18 @@ do {
 	$count ++;
 
 } while ($count < $maxSize);
+
+/*
+THIS OUTPUTS THE FOLLOWIN:
+
+vagrant@scotchbox:/var/www/public$ php hetzner_test.php
+B W B W B W B W
+W B W B W B W B
+B W B W B W B W
+W B W B W B W B
+B W B W B W B W
+W B W B W B W B
+B W B W B W B W
+W B W B W B W B
+vagrant@scotchbox:/var/www/public$
+*/
